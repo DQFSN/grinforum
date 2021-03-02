@@ -11,7 +11,7 @@ import (
 
 // AccountsList 账户列表
 func AccountsList(c *gin.Context) {
-	c.Set(PageTitle, "见周边（正见生活、品鉴生活，推荐生活）")
+	c.Set(PageTitle, "古灵阁")
 	page := service.QueryPage(c)
 	users, allPage, err := service.UsersQueryWithContext(c)
 

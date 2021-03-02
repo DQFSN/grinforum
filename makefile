@@ -1,10 +1,10 @@
 .PHONY: run
 run:build
-	./apollo.exe
+	./grinforum
 
 .PHONY: build
 build: mod
-	go build -o apollo.exe main.go
+	go build -o grinforum main.go
 
 .PHONY: mod
 mod:
@@ -13,8 +13,8 @@ mod:
 
 .PHONY: migrate
 migrate: build
-	./apollo.exe migrate
+	./grinforum migrate
 
 .PHONY: rollback
 rollback: build
-	./apollo.exe migrate rollbackLast
+	./grinforum migrate rollbackLast

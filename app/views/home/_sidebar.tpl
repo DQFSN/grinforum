@@ -18,7 +18,7 @@
 
 <div class="body-sidebar">
     <div style="text-align: center;">
-        <img src="/static/img/qrcode_jzb.jpg" style="width: 100%;"></img>
-        <div>公众号（见周边）</div>
+        <img src="/static/img/qrcode.jpg" style="width: 100%;"></img>
+        <div>公众号（古灵阁）</div>
     </div>
 </div>

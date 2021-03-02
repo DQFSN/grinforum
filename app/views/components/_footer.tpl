@@ -1,5 +1,5 @@
 <div class="container">
   <div class="copyright">
-  生活中的smile团队 ©{{now_year}}
+  古灵阁 ©{{now_year}}
   </div>
 </div>

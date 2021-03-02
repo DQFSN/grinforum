@@ -27,3 +27,4 @@ vendor/*
 
 # ide
 .vscode
+.idea/*
