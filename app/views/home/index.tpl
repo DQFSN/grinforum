@@ -1,10 +1,3 @@
-{{if .Account}}
-<div class="hidden-md hidden-lg">
-    <a href="{{link `share_new_get`}}" class="btn btn-default btn-block apollo-new-share">
-        创建新分享
-    </a>
-</div>
-{{ end }}
 <div class="row">
 <div class="col-md-9 mt-3"> 
 	<div class="panel panel-default">
