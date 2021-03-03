@@ -1,6 +1,6 @@
 {{if .Account}}
 <div class="hidden-md hidden-lg">
-    <a href="/share" class="btn btn-default btn-block jzb-new-share">
+    <a href="/share/new" class="btn btn-default btn-block jzb-new-share">
         创建新分享
     </a>
 </div>
