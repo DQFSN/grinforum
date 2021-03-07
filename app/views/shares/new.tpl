@@ -25,7 +25,7 @@
           </div>
           <div class="form-group">
             <em style="color: red;">* </em><label for="title">标签</label>
-            <input type="text" id="tag" name="tag" class="form-control" placeholder="标签，比如：java"></input>
+            <input type="text" id="tag" name="tag" class="form-control" placeholder="标签，比如：教程"></input>
           </div>
           <input type="submit" class="btn btn-default" value="提交"></input>
         </form>

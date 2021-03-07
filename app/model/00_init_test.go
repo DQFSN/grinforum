@@ -14,7 +14,7 @@ func TestMain(m *testing.M) {
 	fmt.Println("begin test of model")
 
 	// 加载测试环境的 yaml
-	initializer.InitViperWithFile("../../configs/config_test.yml")
+	initializer.InitViperWithFile("../../configs/config.yml")
 	initializer.InitMysql(context.Background())
 	Init()
 

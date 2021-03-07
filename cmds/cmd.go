@@ -24,11 +24,11 @@ func AppInit() *cli.App {
 
 	// 1. base application info
 	// 1. 基础的应用信息
-	app.Name = "apollo"
-	app.Author = "zhjw43"
+	app.Name = "grinForumZH"
+	app.Author = "DQF"
 	app.Version = "0.0.1"
-	app.Copyright = "wheresmile group"
-	app.Usage = "backend of some projects"
+	app.Copyright = "DQF"
+	app.Usage = "grin Chinese forum"
 
 	// 2. flags
 	// 2. 可传入的标识

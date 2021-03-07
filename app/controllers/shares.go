@@ -92,7 +92,7 @@ func ShareNewPost(c *gin.Context) {
 	form := struct {
 		URL    string `form:"url" binding:"isdefault|url"`
 		Title  string `form:"title" binding:"required,lengte=1"`
-		Review string `form:"review" binding:"required,lenlte=8000"`
+		Review string `form:"review" binding:"required,lenlte=80000"`
 		Tag    string `form:"tag" binding:"required"`
 	}{}
 
@@ -185,7 +185,7 @@ func ShareEditPost(c *gin.Context) {
 	form := struct {
 		URL    string `form:"url" binding:"isdefault|url"`
 		Title  string `form:"title" binding:"required,lengte=1"`
-		Review string `form:"review" binding:"required,lenlte=8000"`
+		Review string `form:"review" binding:"required,lenlte=80000"`
 		Tag    string `form:"tag" binding:"required"`
 	}{}
 	if errs := c.ShouldBind(&form); errs != nil {
@@ -197,7 +197,7 @@ func ShareEditPost(c *gin.Context) {
 	}
 
 	share := model.Share{
-		UserID: user.ID,
+		UserID: shareOld.UserID,
 		URL:    form.URL,
 		Title:  form.Title,
 		Review: form.Review,
