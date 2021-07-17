@@ -19,9 +19,9 @@ debug
 *.log
 
 # config file
-*.toml
-*.yml
-*.yaml
+#*.toml
+#*.yml
+#*.yaml
 
 # vendor file
 vendor/*
