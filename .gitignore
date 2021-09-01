@@ -1,31 +1,7 @@
 # Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
 grinforum
 
-# Test binary, build with `go test -c`
-*.test
 
-# debug binary
-debug
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# log files
 *.log
-
-# config file
-#*.toml
-#*.yml
-#*.yaml
-
-# vendor file
-vendor/*
-
-# ide
-.vscode
 .idea/*
